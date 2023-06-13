@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <main>
+            <form action="">
+                <input type="text" id="city-input" required aria-required="true" placeholder="Enter City to search" aria-label="Enter City to search" />
+            <input type="submit" id="city-input" value="Get Weather" />
+        </form>
+        <dCiv id="weather-data">
+            
+            <h3 class="country"> </h3> <b class="city"></b> 
+            <div class="icon">
+                <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+            </div>
+            <div class="description"></div>
+            <div class="temperature"></div>
+            <div class="details">
+                <!-- <div>Feels like: 23&deg;C</div> -->
+                <!-- <div>Humidity: 40%</div> -->
+                <!-- <div>Wind speed: 5 m/s</div> -->
+            </div>
+        </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
